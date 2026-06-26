@@ -2,11 +2,16 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Hanif Suhail M S | AI Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -15,29 +20,28 @@
 
     <header>
 
-        <div class="container">
+        <div class="navbar">
 
-            <div class="hero">
+            <div class="logo">
 
-                <h1>Hanif Suhail M S</h1>
-
-                <p>
-                    AI & Data Science Student |
-                    AI Developer |
-                    App Developer
-                </p>
+                <h2>Hanif Suhail M S</h2>
 
             </div>
 
             <nav>
 
-                <ul class="nav-links">
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
 
                     <li><a href="#about">About</a></li>
+
                     <li><a href="#education">Education</a></li>
+
                     <li><a href="#skills">Skills</a></li>
+
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
+
                     <li><a href="#contact">Contact</a></li>
 
                 </ul>
@@ -48,235 +52,489 @@
 
     </header>
 
-    <!-- ================= MAIN ================= -->
+    <!-- ================= HERO SECTION ================= -->
 
-    <main>
+    <section id="home" class="hero">
 
-        <!-- ABOUT -->
+        <div class="hero-content">
 
-        <section id="about" class="card">
+            <!-- LEFT SIDE -->
 
-            <h2>About Me</h2>
+            <div class="hero-text">
 
-            <article>
+                <h1>
+
+                    Hi, I'm
+
+                    <span>
+
+                        Hanif Suhail M S
+
+                    </span>
+
+                </h1>
+
+                <h3>
+
+                    AI & Data Science Student
+
+                </h3>
 
                 <p>
 
-                    Hello! I'm <strong>Hanif Suhail M S</strong>,
-                    currently pursuing <strong>B.Tech Artificial Intelligence
-                        & Data Science</strong>.
+                    Passionate AI Engineer and Full Stack Developer
+                    specializing in Artificial Intelligence,
+                    Machine Learning,
+                    Web Development,
+                    Generative AI,
+                    and Large Language Models.
 
-                    I enjoy developing AI-powered applications,
-                    full-stack web applications, and intelligent systems
-                    using Python, Flask, Machine Learning,
-                    Generative AI, and Large Language Models.
+                </p>
+
+                <a href="#contact" class="btn">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+
+            <div class="hero-image">
+
+                <img src="photo.jpeg"
+                     alt="Hanif Suhail">
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about" class="about">
+
+        <div class="section-title">
+
+            <h2>About Me</h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>Who Am I?</h3>
+
+                <p>
+
+                    Hello! I'm <strong>Hanif Suhail M S</strong>, a passionate
+                    <strong>Artificial Intelligence & Data Science</strong>
+                    student at Anna University.
+
+                    I enjoy building intelligent applications using
+                    Python, Flask, Machine Learning, Generative AI,
+                    LangChain, Ollama, and modern web technologies.
+
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <h3>Career Goal</h3>
+
+                <p>
+
+                    My goal is to become a skilled
+                    <strong>AI Engineer</strong> and
+                    <strong>Full Stack Developer</strong>
+                    capable of designing intelligent,
+                    scalable, and real-world AI applications.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="education">
+
+        <div class="section-title">
+
+            <h2>Academic Details</h2>
+
+        </div>
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Qualification</th>
+
+                        <th>Institution</th>
+
+                        <th>Board / University</th>
+
+                        <th>Percentage / CGPA</th>
+
+                        <th>Year</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>B.Tech AI & DS</td>
+
+                        <td>MIT Campus</td>
+
+                        <td>Anna University</td>
+
+                        <td>Pursuing</td>
+
+                        <td>2024 - Present</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Higher Secondary</td>
+
+                        <td>Tirunelveli</td>
+
+                        <td>State Board</td>
+
+                        <td>93%</td>
+
+                        <td>2024</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>SSLC</td>
+
+                        <td>Tirunelveli</td>
+
+                        <td>State Board</td>
+
+                        <td>Excellent</td>
+
+                        <td>2022</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills">
+
+        <div class="section-title">
+
+            <h2>Technical Skills</h2>
+
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Web Development</h3>
+
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Flask</li>
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Artificial Intelligence</h3>
+
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Generative AI</li>
+                    <li>Large Language Models</li>
+                    <li>LangChain</li>
+                    <li>Ollama</li>
+                </ul>
+
+            </div>
+
+            <div class="skill-card">
+
+                <h3>Database & Tools</h3>
+
+                <ul>
+                    <li>SQLite</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects">
+
+        <div class="section-title">
+
+            <h2>Projects</h2>
+
+        </div>
+
+        <div class="projects-container">
+
+            <article class="project-card">
+
+                <h3>🤖 AI Chatbot</h3>
+
+                <p>
+
+                    Developed a local AI Chatbot using
+                    Python, Flask, LangChain,
+                    Ollama, HTML, CSS and SQLite.
+
+                </p>
+
+                <h4>Technologies</h4>
+
+                <p>
+
+                    Python • Flask • Ollama • LangChain • HTML • CSS
 
                 </p>
 
             </article>
 
-        </section>
+            <article class="project-card">
 
-        <!-- EDUCATION -->
+                <h3>🌾 AgroDB</h3>
 
-        <section id="education" class="card">
+                <p>
 
-            <h2>Academic Details</h2>
+                    Smart Agriculture Database
+                    Management System for
+                    efficient crop management.
 
-            <div class="table-container">
+                </p>
 
-                <table>
+                <h4>Technologies</h4>
 
-                    <thead>
+                <p>
 
-                        <tr>
+                    SQL • SQLite • HTML • CSS
 
-                            <th>Qualification</th>
-                            <th>Institution</th>
-                            <th>Percentage</th>
-                            <th>Year</th>
+                </p>
 
-                        </tr>
+            </article>
 
-                    </thead>
+            <article class="project-card">
 
-                    <tbody>
+                <h3>☁ Smart Complaint Routing</h3>
 
-                        <tr>
+                <p>
 
-                            <td>B.Tech AI & DS</td>
-                            <td>Anna University</td>
-                            <td>Pursuing</td>
-                            <td>2024-Present</td>
+                    AI-powered complaint
+                    routing application
+                    using cloud technologies.
 
-                        </tr>
+                </p>
 
-                        <tr>
+                <h4>Technologies</h4>
 
-                            <td>Higher Secondary</td>
-                            <td>Tirunelveli</td>
-                            <td>93%</td>
-                            <td>2024</td>
+                <p>
 
-                        </tr>
+                    Python • Flask • AI
 
-                    </tbody>
+                </p>
 
-                </table>
+            </article>
 
-            </div>
+        </div>
 
-        </section>
+    </section>
 
-        <!-- SKILLS -->
 
-        <section id="skills" class="card">
+    <!-- ================= HOBBIES ================= -->
 
-            <h2>Technical Skills</h2>
+    <section id="hobbies" class="hobbies">
 
-            <div class="skills-container">
-
-                <div class="skill-card">Python</div>
-
-                <div class="skill-card">C++</div>
-
-                <div class="skill-card">HTML5</div>
-
-                <div class="skill-card">CSS3</div>
-
-                <div class="skill-card">JavaScript</div>
-
-                <div class="skill-card">Bootstrap</div>
-
-                <div class="skill-card">Flask</div>
-
-                <div class="skill-card">SQLite</div>
-
-                <div class="skill-card">Machine Learning</div>
-
-                <div class="skill-card">Generative AI</div>
-
-                <div class="skill-card">LangChain</div>
-
-                <div class="skill-card">Ollama</div>
-
-                <div class="skill-card">Git</div>
-
-                <div class="skill-card">GitHub</div>
-
-            </div>
-
-        </section>
-
-        <!-- PROJECTS -->
-
-        <section id="projects" class="card">
-
-            <h2>Projects</h2>
-
-            <div class="projects-container">
-
-                <article class="project-card">
-
-                    <h3>AI Chatbot</h3>
-
-                    <p>
-
-                        Local AI Chatbot built using
-                        Flask, LangChain, Ollama,
-                        HTML, CSS and SQLite.
-
-                    </p>
-
-                </article>
-
-                <article class="project-card">
-
-                    <h3>AgroDB</h3>
-
-                    <p>
-
-                        Smart Agriculture
-                        Database Management
-                        System using SQL.
-
-                    </p>
-
-                </article>
-
-                <article class="project-card">
-
-                    <h3>Complaint Routing</h3>
-
-                    <p>
-
-                        AI-powered cloud application
-                        that routes complaints to the
-                        correct department automatically.
-
-                    </p>
-
-                </article>
-
-            </div>
-
-        </section>        <!-- HOBBIES -->
-
-        <section id="hobbies" class="card">
+        <div class="section-title">
 
             <h2>Hobbies</h2>
 
-            <div class="hobbies-container">
+        </div>
 
-                <div class="hobby-card">
-                    <h3>💻 Coding</h3>
-                    <p>Building AI and web applications.</p>
+        <div class="hobbies-container">
+
+            <div class="hobby-card">
+
+                <h3>💻 Coding</h3>
+
+                <p>
+
+                    Building AI applications and
+                    solving real-world problems.
+
+                </p>
+
+            </div>
+
+            <div class="hobby-card">
+
+                <h3>📚 Learning</h3>
+
+                <p>
+
+                    Exploring Artificial Intelligence,
+                    Machine Learning and LLMs.
+
+                </p>
+
+            </div>
+
+            <div class="hobby-card">
+
+                <h3>🎤 Public Speaking</h3>
+
+                <p>
+
+                    Improving leadership and
+                    communication through Toastmasters.
+
+                </p>
+
+            </div>
+
+            <div class="hobby-card">
+
+                <h3>🚀 Technology</h3>
+
+                <p>
+
+                    Keeping up with the latest
+                    AI tools and software development.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+        <div class="contact-container">
+
+            <!-- Left Side -->
+
+            <div class="contact-info">
+
+                <h3>Let's Connect!</h3>
+
+                <p>
+                    I'm always interested in learning new technologies,
+                    collaborating on AI projects, and discussing innovative ideas.
+                </p>
+
+                <div class="info-box">
+
+                    <h4>Email</h4>
+
+                    <p>hanifsuhailsuhail@gmail.com</p>
+
                 </div>
 
-                <div class="hobby-card">
-                    <h3>📚 Learning AI</h3>
-                    <p>Exploring Machine Learning, LLMs and Generative AI.</p>
+                <div class="info-box">
+
+                    <h4>Location</h4>
+
+                    <p>Chennai, Tamil Nadu, India</p>
+
                 </div>
 
-                <div class="hobby-card">
-                    <h3>🎤 Public Speaking</h3>
-                    <p>Improving communication through Toastmasters.</p>
-                </div>
+                <div class="info-box">
 
-                <div class="hobby-card">
-                    <h3>🌐 Technology</h3>
-                    <p>Learning new programming languages and frameworks.</p>
+                    <h4>Education</h4>
+
+                    <p>B.Tech Artificial Intelligence & Data Science</p>
+
                 </div>
 
             </div>
 
-        </section>
+            <!-- Right Side -->
 
-        <!-- CONTACT -->
+            <div class="contact-form">
 
-        <section id="contact" class="card">
+                <form action="#">
 
-            <h2>Contact Me</h2>
-
-            <form class="contact-form">
-
-                <div class="form-row">
-
-                    <div class="form-group">
+                    <div class="input-box">
 
                         <label for="name">Full Name</label>
 
                         <input
                             type="text"
                             id="name"
-                            placeholder="Enter your name"
+                            placeholder="Enter your full name"
                             required>
 
                     </div>
 
-                    <div class="form-group">
+                    <div class="input-box">
 
-                        <label for="email">Email</label>
+                        <label for="email">Email Address</label>
 
                         <input
                             type="email"
@@ -286,22 +544,18 @@
 
                     </div>
 
-                </div>
+                    <div class="input-box">
 
-                <div class="form-row">
-
-                    <div class="form-group">
-
-                        <label for="phone">Phone</label>
+                        <label for="phone">Phone Number</label>
 
                         <input
                             type="tel"
                             id="phone"
-                            placeholder="Enter phone number">
+                            placeholder="Enter your phone number">
 
                     </div>
 
-                    <div class="form-group">
+                    <div class="input-box">
 
                         <label for="subject">Subject</label>
 
@@ -312,56 +566,57 @@
 
                     </div>
 
-                </div>
+                    <div class="input-box">
 
-                <div class="form-group">
+                        <label for="message">Message</label>
 
-                    <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
 
-                    <textarea
-                        id="message"
-                        rows="6"
-                        placeholder="Write your message..."></textarea>
+                    </div>
 
-                </div>
+                    <button type="submit">
 
-                <button type="submit" class="btn">
+                        Send Message
 
-                    Send Message
+                    </button>
 
-                </button>
+                </form>
 
-            </form>
+            </div>
 
-        </section>
+        </div>
+
+    </section>
 
     </main>
-
-    <!-- FOOTER -->
 
     <footer>
 
         <div class="footer-container">
 
-            <div>
+            <div class="footer-about">
 
                 <h3>Hanif Suhail M S</h3>
 
                 <p>
 
-                    AI Engineer |
-                    Full Stack Developer |
-                    AI Enthusiast
+                    AI Engineer • Full Stack Developer • AI Enthusiast
 
                 </p>
 
             </div>
 
-            <div>
+            <div class="footer-links">
 
                 <h3>Quick Links</h3>
 
                 <ul>
+
+                    <li><a href="#home">Home</a></li>
 
                     <li><a href="#about">About</a></li>
 
@@ -371,19 +626,23 @@
 
                     <li><a href="#projects">Projects</a></li>
 
+                    <li><a href="#contact">Contact</a></li>
+
                 </ul>
 
             </div>
 
-            <div>
+            <div class="footer-social">
 
-                <h3>Connect</h3>
+                <h3>Connect With Me</h3>
 
-                <p>Email : hanif@example.com</p>
+                <p>📧 hanifsuhailsuhail@gmail.com</p>
 
-                <p>GitHub : github.com/hanif</p>
+                <p>💼 LinkedIn</p>
 
-                <p>LinkedIn : linkedin.com/in/hanif</p>
+                <p>🐙 GitHub</p>
+
+                <p>📷 Instagram</p>
 
             </div>
 
@@ -393,8 +652,7 @@
 
         <p class="copyright">
 
-            © 2026 Hanif Suhail M S.
-            All Rights Reserved.
+            © 2026 Hanif Suhail M S. All Rights Reserved.
 
         </p>
 
